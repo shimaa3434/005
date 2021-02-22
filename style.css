@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(300deg, #000, rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.171)) no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 400px;
+    padding: 25px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: inset -20px -20px 51px #bebebe,
+                inset 20px 20px 51px #ffffff;
+}
+h2{
+    color: rgb(54, 12, 207);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.form-control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    color: rgb(54, 12, 207);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.form-control label{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.p-header{
+    position: relative;
+    margin-bottom: 20px;
+}
+.p-header input{
+    width: 100%;
+    height: 100%;
+    background: #e0e0e0;
+    box-shadow: inset -20px -20px 51px #bebebe,
+                inset 20px 20px 51px #ffffff;
+    padding: 14px;
+    outline: none;
+    font-size: 16px;
+}
+.p-header button, .form-control input[type=number]{
+    background: #e0e0e0;
+    box-shadow: inset -20px -20px 51px #bebebe,
+                inset 20px 20px 51px #ffffff;
+    padding: 3px 5px;
+    outline: none;
+}
+.p-header button{
+    position: absolute;
+    bottom:-10px;
+    width: 60px;
+    right: -10px;
+    cursor: pointer;
+}
+#btn{
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 3px;
+    background: linear-gradient(45deg, #f0f0f0, #cacaca);
+    box-shadow:  20px -20px 60px #bebebe,
+                -20px 20px 60px #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(54, 12, 207);
+    outline: none;
+
+}
